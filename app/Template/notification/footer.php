@@ -1,5 +1,5 @@
 <hr/>
-Kanboard
+Longstraw Carbon admin
 
 <?php if ($this->app->config('application_url') != ''): ?>
     <?php if (isset($task['id'])): ?>
