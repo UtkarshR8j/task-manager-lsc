@@ -68,7 +68,7 @@ class Client extends Base
      */
     public function getAuthorName()
     {
-        $author = 'Kanboard';
+        $author = 'Longstraw Carbon Task Manager';
 
         if ($this->userSession->isLogged()) {
             $author = e('%s via Longstraw Carbon Manager', $this->helper->user->getFullname());
